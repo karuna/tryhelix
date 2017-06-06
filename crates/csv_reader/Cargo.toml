@@ -1,0 +1,10 @@
+[package]
+name = "csv_reader"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+helix = "0.6.1"
+csv = "0.15.0"
